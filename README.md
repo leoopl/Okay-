@@ -49,4 +49,8 @@ Install my-project with npm
 ## Authors
 
 - [@leopl](https://www.github.com/leoopl)
+- [@vibx27](https://github.com/vibx27)
+- [@Joaoalencarl](https://github.com/Joaoalencarl)
+- [@jVictorSA](https://github.com/jVictorSA)
+- [@leonardo-vinicius](https://github.com/leonardo-vinicius)
 
