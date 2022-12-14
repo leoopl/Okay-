@@ -43,10 +43,10 @@ Execute no xCode
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color | `#0a192f` |
-| Example Color | `#f8f8f8` |
-| Example Color | `#00b48a` |
-| Example Color | `#00d1a0` |
+| Example Color | `#F7BD03` |
+| Example Color | `#FBF2D3` |
+| Example Color | `#D9D9D9` |
+| Example Color | `#E0AE09` |
 
 
 ## Badges
