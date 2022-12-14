@@ -12,20 +12,32 @@ Realizado pelo *Instituto de Pesquisas Eldorado* em conjunto com a *IBM Brasil* 
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Menu interativo :heavy_check_mark:
+- Inventário de Depressão de Beck (BDI-II) :heavy_check_mark:
+- Recomendações de médicos :heavy_check_mark:
+- Criação de Rotina :heavy_check_mark:
 
+## Run Locally
 
-## Installation
-
-Install my-project with npm
+Clone o projeto
 
 ```bash
-  npm install my-project
-  cd my-project
+  git clone https://github.com/leoopl/Okay-.git
 ```
+
+Vá até a pasta do projeto
+
+```bash
+  cd Okay-
+```
+
+Abra o Projeto
+
+```bash
+  Okay..xcodeproj
+```
+
+Execute no xCode
     
 ## Color Reference
 
