@@ -34,7 +34,7 @@ Vá até a pasta do projeto
 Abra o Projeto
 
 ```bash
-  Okay..xcodeproj
+  xed .
 ```
 
 Execute no xCode
