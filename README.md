@@ -43,10 +43,10 @@ Execute no xCode
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Color | `#F7BD03` |
-| Color | `#FBF2D3` |
-| Color | `#D9D9D9` |
-| Color | `#E0AE09` |
+| . ![#F7BD03](https://placehold.co/15x15/F7BD03/F7BD03.png) | `#F7BD03` |
+| . ![#FBF2D3](https://placehold.co/15x15/FBF2D3/FBF2D3.png) | `#FBF2D3` |
+| . ![#D9D9D9](https://placehold.co/15x15/D9D9D9/D9D9D9.png) | `#D9D9D9` |
+| . ![#E0AE09](https://placehold.co/15x15/E0AE09/E0AE09.png) | `#E0AE09` |
 
 
 ## Badges
