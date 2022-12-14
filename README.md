@@ -44,7 +44,7 @@ Install my-project with npm
 ![Cloudant](https://img.shields.io/badge/Cloudant-v8341-green?style=flat&logo=IBMCloud&logoColor=0101ff)
 ![Swift](https://img.shields.io/badge/Swift-5.x-green?style=flat&logo=Swift&logoColor=orange)
 ![UIkit](https://img.shields.io/badge/UIkit-3.15-green?style=flat&logo=UIkit&logoColor=blue)
-![iOS](https://img.shields.io/badge/iOS-11-green?style=flat&logo=iOS)
+![iOS](https://img.shields.io/badge/iOS-13.2.2-green?style=flat&logo=iOS)
 ![Xcode](https://img.shields.io/badge/Xcode-11-green?style=flat&logo=Xcode&logoColor=BBCDFA)
 ## Authors
 
