@@ -1,4 +1,4 @@
-//
+///
 //  ViewController.swift
 //  loginTeme
 //
@@ -11,15 +11,19 @@ import UIKit
 class MenuViewController: UIViewController {
     
     var click = true
-
+    @IBOutlet weak var stressButton: UIButton! {
+        didSet{
+            stressButton.layer.cornerRadius = stressButton.frame.height/8
+        }
+    }
+    
+    @IBOutlet weak var imageInteract: UIImageView!
     
     @IBOutlet weak var FineButtonMenu: UIButton! {
         didSet{
             FineButtonMenu.layer.cornerRadius = FineButtonMenu.frame.height/8
         }
     }
-    
-    @IBOutlet weak var FineOuletButton: UIButton!
     
     @IBOutlet weak var RotinaButtonMenu: UIButton! {
         didSet{
@@ -60,18 +64,18 @@ class MenuViewController: UIViewController {
         
     
         
-//        let gradientLayer = CAGradientLayer()
-//        gradientLayer.frame = self.view.bounds
-//        gradientLayer.colors = [UIColor.yellow.cgColor, UIColor.white.cgColor]
-//
-//        self.view.layer.insertSublayer(gradientLayer, at: 0)
-//
-//
-//        self.view.addSubview(self.informationLabel)
-//        self.informationLabel.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 10).isActive = true
-//        self.informationLabel.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -10).isActive = true
-//        self.informationLabel.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
-//        self.informationLabel.heightAnchor.constraint(equalTo: self.view.heightAnchor).isActive = true
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.view.bounds
+        gradientLayer.colors = [UIColor.yellow.cgColor, UIColor.white.cgColor]
+
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+
+
+        self.view.addSubview(self.informationLabel)
+        self.informationLabel.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 10).isActive = true
+        self.informationLabel.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -10).isActive = true
+        self.informationLabel.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+       self.informationLabel.heightAnchor.constraint(equalTo: self.view.heightAnchor).isActive = true
     }
     @IBAction func CVVButton(_ sender: UIButton) {
         UIApplication.shared.open(URL(string: "http://cvvweb.mysuite1.com.br/client/chatan.php?h=&inf=&lfa=")!
@@ -80,11 +84,12 @@ class MenuViewController: UIViewController {
 
     @IBAction func FineButton(_ sender: UIButton) {
         click = !click
+        print(click)
         if click{
-            FineOuletButton.setImage(UIImage(named: "Happy"), for: .normal)
+            imageInteract.image = UIImage(named: "Feliz")
         }
         else{
-            FineOuletButton.setImage(UIImage(named: "Bad"), for: .normal)
+            imageInteract.image = UIImage(named: "Triteza")
         }
         
     }

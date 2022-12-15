@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F859859294A0C36004D3ABA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F859858294A0C36004D3ABA /* MenuViewController.swift */; };
+		3F6C100C294B8A5B006BB47E /* RotinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C100B294B8A5B006BB47E /* RotinaViewController.swift */; };
+		3F74FAAD294B650500B29FAE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74FAAC294B650400B29FAE /* MenuViewController.swift */; };
+		3F74FAB0294B68F700B29FAE /* ProfessionalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74FAAE294B68F600B29FAE /* ProfessionalDetailViewController.swift */; };
+		3F74FAB1294B68F700B29FAE /* ProfessionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74FAAF294B68F600B29FAE /* ProfessionalViewController.swift */; };
+		3F74FAB3294B691100B29FAE /* ProfessionalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74FAB2294B691100B29FAE /* ProfessionalTableViewCell.swift */; };
+		3F74FAB9294B693500B29FAE /* ProfessionalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74FAB6294B693500B29FAE /* ProfessionalResponse.swift */; };
+		3F74FABA294B693500B29FAE /* ProfessionalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74FAB7294B693500B29FAE /* ProfessionalAddress.swift */; };
+		3F74FABB294B693500B29FAE /* Professional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74FAB8294B693500B29FAE /* Professional.swift */; };
 		3F85985C294A0FA8004D3ABA /* RotinaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85985B294A0FA8004D3ABA /* RotinaTableViewCell.swift */; };
-		3F85985E294A0FB4004D3ABA /* RotinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85985D294A0FB4004D3ABA /* RotinaViewController.swift */; };
 		3F859860294A0FBC004D3ABA /* Rotina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85985F294A0FBC004D3ABA /* Rotina.swift */; };
-		3F859864294A123C004D3ABA /* Beck 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F859863294A123C004D3ABA /* Beck 2.json */; };
+		3F859888294B4623004D3ABA /* BreathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F859887294B4623004D3ABA /* BreathViewController.swift */; };
+		3F85988D294B4852004D3ABA /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85988C294B4852004D3ABA /* BreatheView.swift */; };
+		3F85988F294B485D004D3ABA /* CABasicAnimation+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85988E294B485D004D3ABA /* CABasicAnimation+Custom.swift */; };
 		3FE82C182944B305006A4DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE82C172944B305006A4DA1 /* AppDelegate.swift */; };
 		3FE82C1A2944B305006A4DA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE82C192944B305006A4DA1 /* SceneDelegate.swift */; };
 		3FE82C1F2944B305006A4DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE82C1D2944B305006A4DA1 /* Main.storyboard */; };
@@ -25,11 +33,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F859858294A0C36004D3ABA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3F6C100B294B8A5B006BB47E /* RotinaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotinaViewController.swift; sourceTree = "<group>"; };
+		3F74FAAC294B650400B29FAE /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3F74FAAE294B68F600B29FAE /* ProfessionalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessionalDetailViewController.swift; sourceTree = "<group>"; };
+		3F74FAAF294B68F600B29FAE /* ProfessionalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessionalViewController.swift; sourceTree = "<group>"; };
+		3F74FAB2294B691100B29FAE /* ProfessionalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessionalTableViewCell.swift; sourceTree = "<group>"; };
+		3F74FAB6294B693500B29FAE /* ProfessionalResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfessionalResponse.swift; path = "Okay?2/Models/ProfessionalResponse.swift"; sourceTree = SOURCE_ROOT; };
+		3F74FAB7294B693500B29FAE /* ProfessionalAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfessionalAddress.swift; path = "Okay?2/Models/ProfessionalAddress.swift"; sourceTree = SOURCE_ROOT; };
+		3F74FAB8294B693500B29FAE /* Professional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Professional.swift; path = "Okay?2/Models/Professional.swift"; sourceTree = SOURCE_ROOT; };
 		3F85985B294A0FA8004D3ABA /* RotinaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotinaTableViewCell.swift; sourceTree = "<group>"; };
-		3F85985D294A0FB4004D3ABA /* RotinaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RotinaViewController.swift; path = ../../../Rotina/telaRotina/RotinaViewController.swift; sourceTree = "<group>"; };
 		3F85985F294A0FBC004D3ABA /* Rotina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotina.swift; sourceTree = "<group>"; };
-		3F859863294A123C004D3ABA /* Beck 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Beck 2.json"; path = "../../../../../Downloads/Beck 2.json"; sourceTree = "<group>"; };
+		3F859887294B4623004D3ABA /* BreathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathViewController.swift; sourceTree = "<group>"; };
+		3F85988C294B4852004D3ABA /* BreatheView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
+		3F85988E294B485D004D3ABA /* CABasicAnimation+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CABasicAnimation+Custom.swift"; sourceTree = "<group>"; };
 		3FE82C142944B305006A4DA1 /* Okay?2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Okay?2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE82C172944B305006A4DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FE82C192944B305006A4DA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,8 +75,11 @@
 			isa = PBXGroup;
 			children = (
 				3FF4A0892949EDC50045EC72 /* ResultViewController.swift */,
-				3F859858294A0C36004D3ABA /* MenuViewController.swift */,
-				3F85985D294A0FB4004D3ABA /* RotinaViewController.swift */,
+				3F74FAAE294B68F600B29FAE /* ProfessionalDetailViewController.swift */,
+				3F74FAAF294B68F600B29FAE /* ProfessionalViewController.swift */,
+				3F6C100B294B8A5B006BB47E /* RotinaViewController.swift */,
+				3F859887294B4623004D3ABA /* BreathViewController.swift */,
+				3F74FAAC294B650400B29FAE /* MenuViewController.swift */,
 				3FE82C2B2944B5D3006A4DA1 /* QuestionViewController.swift */,
 				3FE82C2F2944BC21006A4DA1 /* StartViewController.swift */,
 			);
@@ -71,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				3F85985B294A0FA8004D3ABA /* RotinaTableViewCell.swift */,
+				3F74FAB2294B691100B29FAE /* ProfessionalTableViewCell.swift */,
 				3FE82C2D2944B5F7006A4DA1 /* QuestionCollectionViewCell.swift */,
 			);
 			path = Cell;
@@ -79,11 +99,31 @@
 		3F859862294A1211004D3ABA /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				3F74FAB8294B693500B29FAE /* Professional.swift */,
+				3F74FAB7294B693500B29FAE /* ProfessionalAddress.swift */,
+				3F74FAB6294B693500B29FAE /* ProfessionalResponse.swift */,
 				3FE82C312944BDB6006A4DA1 /* Questions.swift */,
 				3F85985F294A0FBC004D3ABA /* Rotina.swift */,
-				3F859863294A123C004D3ABA /* Beck 2.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		3F85988B294B47EF004D3ABA /* BreathView */ = {
+			isa = PBXGroup;
+			children = (
+				3F85988E294B485D004D3ABA /* CABasicAnimation+Custom.swift */,
+				3F85988C294B4852004D3ABA /* BreatheView.swift */,
+			);
+			path = BreathView;
+			sourceTree = "<group>";
+		};
+		3F859890294B535A004D3ABA /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3FE82C172944B305006A4DA1 /* AppDelegate.swift */,
+				3FE82C192944B305006A4DA1 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 		3FE82C0B2944B305006A4DA1 = {
@@ -105,11 +145,11 @@
 		3FE82C162944B305006A4DA1 /* Okay?2 */ = {
 			isa = PBXGroup;
 			children = (
+				3F859890294B535A004D3ABA /* Delegate */,
+				3F85988B294B47EF004D3ABA /* BreathView */,
 				3F859862294A1211004D3ABA /* Data */,
 				3F859861294A11F5004D3ABA /* Cell */,
 				3F85985A294A0C80004D3ABA /* Controller */,
-				3FE82C172944B305006A4DA1 /* AppDelegate.swift */,
-				3FE82C192944B305006A4DA1 /* SceneDelegate.swift */,
 				3FE82C1D2944B305006A4DA1 /* Main.storyboard */,
 				3FE82C202944B306006A4DA1 /* Assets.xcassets */,
 				3FE82C222944B306006A4DA1 /* LaunchScreen.storyboard */,
@@ -178,7 +218,6 @@
 			files = (
 				3FE82C242944B306006A4DA1 /* LaunchScreen.storyboard in Resources */,
 				3FE82C212944B306006A4DA1 /* Assets.xcassets in Resources */,
-				3F859864294A123C004D3ABA /* Beck 2.json in Resources */,
 				3FE82C1F2944B305006A4DA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,16 +230,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE82C302944BC21006A4DA1 /* StartViewController.swift in Sources */,
+				3F74FAAD294B650500B29FAE /* MenuViewController.swift in Sources */,
 				3FE82C2E2944B5F7006A4DA1 /* QuestionCollectionViewCell.swift in Sources */,
+				3F859888294B4623004D3ABA /* BreathViewController.swift in Sources */,
 				3FF4A08A2949EDC50045EC72 /* ResultViewController.swift in Sources */,
+				3F74FAB0294B68F700B29FAE /* ProfessionalDetailViewController.swift in Sources */,
+				3F74FABA294B693500B29FAE /* ProfessionalAddress.swift in Sources */,
+				3F74FAB3294B691100B29FAE /* ProfessionalTableViewCell.swift in Sources */,
+				3F85988F294B485D004D3ABA /* CABasicAnimation+Custom.swift in Sources */,
 				3F859860294A0FBC004D3ABA /* Rotina.swift in Sources */,
 				3FE82C182944B305006A4DA1 /* AppDelegate.swift in Sources */,
 				3FE82C322944BDB6006A4DA1 /* Questions.swift in Sources */,
-				3F85985E294A0FB4004D3ABA /* RotinaViewController.swift in Sources */,
+				3F6C100C294B8A5B006BB47E /* RotinaViewController.swift in Sources */,
 				3FE82C2C2944B5D3006A4DA1 /* QuestionViewController.swift in Sources */,
 				3F85985C294A0FA8004D3ABA /* RotinaTableViewCell.swift in Sources */,
-				3F859859294A0C36004D3ABA /* MenuViewController.swift in Sources */,
+				3F85988D294B4852004D3ABA /* BreatheView.swift in Sources */,
+				3F74FAB1294B68F700B29FAE /* ProfessionalViewController.swift in Sources */,
 				3FE82C1A2944B305006A4DA1 /* SceneDelegate.swift in Sources */,
+				3F74FABB294B693500B29FAE /* Professional.swift in Sources */,
+				3F74FAB9294B693500B29FAE /* ProfessionalResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

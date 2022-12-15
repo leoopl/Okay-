@@ -13,7 +13,7 @@ class StartViewController: UIViewController {
     
     @IBOutlet weak var startButton: UIButton!{
         didSet {
-        startButton.layer.cornerRadius = startButton.frame.height/2
+        startButton.layer.cornerRadius = startButton.frame.height/8
         }
     }
     
@@ -21,5 +21,9 @@ class StartViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func onClickStartback(_ sender: Any) {
+        navigationController?.popToRootViewController(animated: true)
     }
 }
