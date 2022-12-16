@@ -9,7 +9,7 @@
 import UIKit
 
 class ProfessionalViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    let url = "http://127.0.0.1:1880/api/professional";
+    let url = "http://192.168.128.163:1880/professional?_id=a07a1e33248ed310142adcf47bff5d86";
     @IBOutlet weak var tableView: UITableView!
     var professionals: [Professional] = [];
     

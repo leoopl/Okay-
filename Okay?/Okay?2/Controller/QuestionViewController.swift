@@ -73,7 +73,7 @@ class QuestionViewController: UIViewController, UICollectionViewDataSource, UICo
         }
         
         func getData(completed: @escaping () -> ()){
-                let url = URL(string: "http://192.168.128.166:1880/listardb")
+                let url = URL(string: "http://192.168.128.163:1880/question?_id=ed57648994928833e5dbbca1d5c821f2")
                 URLSession.shared.dataTask(with: url!) { (data, response, err) in
                     if err == nil{
                         

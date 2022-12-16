@@ -39,4 +39,8 @@ class ProfessionalDetailViewController: UIViewController {
         let neighborhood = self.professional!.address!.neighborhood!;
         self.address?.text = "\(street), \(number), \(neighborhood) - \(city), \(state), \(country)";
     }
+    
+    @IBAction func back(_ sender: Any) {
+        navigationController?.popToRootViewController(animated: true)
+    }
 }
