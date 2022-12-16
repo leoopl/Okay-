@@ -17,6 +17,7 @@ Realizado pelo *Instituto de Pesquisas Eldorado* em conjunto com a *IBM Brasil* 
 - Inventário de Depressão de Beck (BDI-II) :heavy_check_mark:
 - Recomendações de médicos :heavy_check_mark:
 - Criação de Rotina :heavy_check_mark:
+- Exercisio de respiração diafragmatica :heavy_check_mark:
 
 ## Run Locally
 
