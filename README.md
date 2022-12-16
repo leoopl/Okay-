@@ -7,7 +7,8 @@ Realizado pelo *Instituto de Pesquisas Eldorado* em conjunto com a *IBM Brasil* 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Menu and Breath Area](https://media2.giphy.com/media/sknkiY7U7KVf8pmRqZ/giphy.gif)
+![Questionari Area](https://media3.giphy.com/media/N9pij82mUtkjP62jMb/giphy.gif)
 
 
 ## Features
